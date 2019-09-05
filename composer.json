@@ -1,0 +1,28 @@
+{
+    "name": "angius/phollections",
+    "description": "OOP wrapper around PHP arrays",
+    "type": "library",
+    "license": "LGPL-3",
+    "authors": [
+        {
+            "name": "Angius",
+            "email": "koumarin@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "require-dev": {
+        "roave/security-advisories":  "dev-master",
+        "phpunit/phpunit": "8.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phollections\\": "src/Phollections"
+        },
+        "classmap": [
+            "src/"
+        ]
+    }
+}
